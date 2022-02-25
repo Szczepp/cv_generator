@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/cv_generator.iml" filepath="$PROJECT_DIR$/.idea/cv_generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cv_generator_custom.iml" filepath="$PROJECT_DIR$/.idea/cv_generator_custom.iml" />
     </modules>
   </component>
 </project>
