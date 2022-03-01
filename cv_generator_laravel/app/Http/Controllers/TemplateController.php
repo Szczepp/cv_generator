@@ -4,13 +4,13 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 
 require_once  base_path() . '/vendor/autoload.php';
-
+g
 
 class TemplateController extends Controller
 {
-    public function test()
+    public function formHandler($id)
     {
-        return view('welcome');
+        return view('form_' . $id);
     }
 
 }

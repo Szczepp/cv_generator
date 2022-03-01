@@ -10,7 +10,7 @@ require_once  base_path() . '/vendor/autoload.php';
 class FormController extends Controller
 {
 
-    public function chooseTemplate()
+    public function templateHandler()
     {
         return view('welcome');
     }

@@ -8,6 +8,7 @@
 
     </head>
     <body>
+    @include('header')
 <?php
 
 require_once base_path() . '/vendor/autoload.php';
@@ -29,5 +30,9 @@ $mpdf = new Mpdf();
 //
 
 ?>
+
+
+
+
     </body>
 </html>
