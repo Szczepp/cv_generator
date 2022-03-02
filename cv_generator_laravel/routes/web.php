@@ -2,9 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FormController;
-use App\Http\Controllers\TemplateController;
+use App\Http\Controllers\HomeController;
 
 
-Route::get('/', [FormController::class, 'templateHandler']);
-Route::get('/{id}', [TemplateController::class, 'formHandler']);
+Route::get('/', [HomeController::class, 'index']);
+Route::get('/form', [FormController::class, 'displayForm']);
+
 
