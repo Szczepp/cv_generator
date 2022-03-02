@@ -8,4 +8,3 @@ use App\Http\Controllers\HomeController;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/form', [FormController::class, 'displayForm']);
 
-
